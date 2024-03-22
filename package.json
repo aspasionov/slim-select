@@ -1,7 +1,7 @@
 {
   "name": "slim-select_2",
   "description": "Slim advanced select dropdown",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "author": "Brian Voelker <brian@webiswhatido.com> (http://webiswhatido.com)",
   "homepage": "https://slimselectjs.com",
   "license": "MIT",
