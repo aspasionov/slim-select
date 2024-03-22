@@ -1073,7 +1073,6 @@
             }
             const optionEl = document.createElement('div');
             optionEl.dataset.id = option.id;
-            optionEl.id = option.id;
             optionEl.classList.add(this.classes.option);
             optionEl.setAttribute('role', 'option');
             if (option.class) {
