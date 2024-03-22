@@ -1,4 +1,4 @@
-import { defineComponent, openBlock, createElementBlock, renderSlot } from 'vue';
+import { createElementBlock, defineComponent, openBlock, renderSlot } from 'vue';
 
 function generateID() {
     return Math.random().toString(36).substring(2, 10);
@@ -1069,7 +1069,6 @@ class Render {
         }
         const optionEl = document.createElement('div');
         optionEl.dataset.id = option.id;
-        optionEl.id = option.id;
         optionEl.classList.add(this.classes.option);
         optionEl.setAttribute('role', 'option');
         if (option.class) {
